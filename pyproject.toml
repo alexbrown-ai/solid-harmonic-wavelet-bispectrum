@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "solid-harmonic-wavelet-bispectrum"
+version = "0.0.1"
+description = "Official code related to the Solid Harmonic Wavelet Bispectrum"
+authors = ["Alex Brown"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "wavelets" },
+    { include = "scattering" },
+    { include = "scripts" },
+    { include = "models" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+numpy = "*"
+scipy = "*"
+torch = "*"
+kymatio = "*"
+h5py = "*"
+astropy = "*"
+pandas = "*"
+opencv-python = "*"
+scikit-learn = "*"
+matplotlib = "*"
+pillow = "*"
+torchvision = "*"
+torchmetrics = "*"
+tqdm = "*"
