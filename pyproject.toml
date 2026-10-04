@@ -28,3 +28,8 @@ pillow = "*"
 torchvision = "*"
 torchmetrics = "*"
 tqdm = "*"
+# Zoobot fine-tuning (models/zoobot, scripts/finetune_zoobot*.py)
+galaxy-zoobot = "*"
+timm = "*"
+lightning = "*"
+huggingface_hub = "*"
